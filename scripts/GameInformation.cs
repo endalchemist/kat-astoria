@@ -7,6 +7,8 @@ public class GameInformation : MonoBehaviour {
         DontDestroyOnLoad(transform.gameObject);
     }
 
+    public static BaseEquipment EquipmentOne{get;set;}
+
     public static string PlayerName{get;set;}
     public static int PlayerLevel{get;set;}
     public static BaseToonClass PlayerClass{get;set;}
@@ -25,5 +27,5 @@ public class GameInformation : MonoBehaviour {
     public static int CritMultiplier{get;set;}
     public static int SleightOfHand{get;set;}
     public static int Thieving{get;set;}
-        
+
 }
