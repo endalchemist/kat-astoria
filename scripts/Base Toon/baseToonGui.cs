@@ -1,5 +1,5 @@
 using UnityEngine;
-using System.collections;
+using System.Collections;
 
 public class CreateNewToon : MonoBehaviour {
     private BaseToon newToon;
@@ -10,7 +10,7 @@ public class CreateNewToon : MonoBehaviour {
     private bool isKnight;
     private bool isScoundrel;
     private bool isWorker;
-    private String yourName;
+    private String toonName = "Enter Name Here";
 
     void Start(){
       newToon = new BaseToon();
@@ -65,11 +65,11 @@ public class CreateNewToon : MonoBehaviour {
         newToon.MagicEnergy = newToon.PlayerClass.MagicEnergy;
         newToon.MagicSpeed = newToon.PlayerClass.MagicSpeed;
         newToon.AttackSpeed = newToon.PlayerClass.AttackSpeed;
-        newToon.CritPerecentChance = newToon.PlayerClass.CritPerecentChance;
+        newToon.CritPercentChance = newToon.PlayerClass.CritPercentChance;
         newToon.CritMultiplier = newToon.PlayerClass.CritMultiplier;
-        newToon.SlieghtOfHand = newToon.PlayerClass.SlieghtOfHand;
+        newToon.SleightOfHand = newToon.PlayerClass.SleightOfHand;
         newToon.Thieving = newToon.PlayerClass.Thieving;
-        newtoon.PlayerName = yourName;
+        newToon.PlayerName = toonName;
         StoreNewInfo();
         SaveInfo.SaveAllInfo();
         if(GUILayout.Button("Create")){
@@ -77,24 +77,24 @@ public class CreateNewToon : MonoBehaviour {
         }
       }
       private void StoreNewInfo(){
-        GameInformation.PlayerName  = newtoon.PlayerName;
-        GameInformation.Health  = newtoon.Health;
-        GameInformation.Stamina  = newtoon.Stamina;
-        GameInformation.Endurance  = newtoon.Endurance;
-        GameInformation.MagicPower  = newtoon.MagicPower;
-        GameInformation.Strength  = newtoon.Strength;
-        GameInformation.Intellect  = newtoon.Intellect;
-        GameInformation.Wisdom  = newtoon.Wisdom;
-        GameInformation.Sneak  = newtoon.Sneak;
-        GameInformation.Luck  = newtoon.Luck;
-        GameInformation.Spirit  = newtoon.Spirit;
-        GameInformation.MagicEnergy  = newtoon.MagicEnergy;
-        GameInformation.MagicSpeed  = newtoon.MagicSpeed;
-        GameInformation.AttackSpeed  = newtoon.AttackSpeed;
-        GameInformation.CritPerecentChance  = newtoon.CritPerecentChance;
-        GameInformation.CritMultiplier  = newtoon.CritMultiplier;
-        GameInformation.SlieghtOfHand  = newtoon.SlieghtOfHand;
-        GameInformation.Thieving  = newtoon.Thieving;
+        GameInformation.PlayerName  = newToon.PlayerName;
+        GameInformation.Health  = newToon.Health;
+        GameInformation.Stamina  = newToon.Stamina;
+        GameInformation.Endurance  = newToon.Endurance;
+        GameInformation.MagicPower  = newToon.MagicPower;
+        GameInformation.Strength  = newToon.Strength;
+        GameInformation.Intellect  = newToon.Intellect;
+        GameInformation.Wisdom  = newToon.Wisdom;
+        GameInformation.Sneak  = newToon.Sneak;
+        GameInformation.Luck  = newToon.Luck;
+        GameInformation.Spirit  = newToon.Spirit;
+        GameInformation.MagicEnergy  = newToon.MagicEnergy;
+        GameInformation.MagicSpeed  = newToon.MagicSpeed;
+        GameInformation.AttackSpeed  = newToon.AttackSpeed;
+        GameInformation.CritPercentChance  = newToon.CritPercentChance;
+        GameInformation.CritMultiplier  = newToon.CritMultiplier;
+        GameInformation.SlieghtOfHand  = newToon.SlieghtOfHand;
+        GameInformation.Thieving  = newToon.Thieving;
 
       }
     }

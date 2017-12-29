@@ -1,5 +1,5 @@
 using UnityEngine
-using system.Collections;
+using System.Collections;
 
 public class BasePlayer {
 
@@ -15,12 +15,15 @@ public class BasePlayer {
 	private int wisdom;
 	private int agility;
 	private int	luck;
-  private int spirit;
+  	private int spirit;
 
-	public string PlayerName{
+	/*public string PlayerName{
 		get{return playerName;}
 		set{playerName = value;}
-	}
+	}*/
+
+	public string PlayerName{get;set;}
+
 	public int PlayerLevel{
 		get{return playerLevel;}
 		set{playerLevel = value;}
