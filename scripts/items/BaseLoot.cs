@@ -7,7 +7,7 @@ public class BaseLoot {
 	private string lootDetails;
 	private int lootID;
 	public enum LootTypes{
-		EQUIPTMENT,
+		EQUIPMENT,
 		WEAPON,
 		POTION,
 		CRYSTAL,
