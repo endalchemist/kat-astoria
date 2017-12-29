@@ -10,8 +10,11 @@ public class BaseEquipment :  BaseStatedLoot {
         LEGS,
         FEET,
         NECK,
-        EARRING,
-        RING
+        RINGONE,
+        RINGTWO,
+        GLOVES,
+        //Back for capes. later need options for toggle cape n helm visuals
+        BACK
     }
 
     private EquipmentTypes equipmentType;
@@ -25,5 +28,5 @@ public class BaseEquipment :  BaseStatedLoot {
         get{return spellEffectID;}
         set{spellEffectID = value;}
     }
-    
+
 }
