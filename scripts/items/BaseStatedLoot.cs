@@ -1,8 +1,9 @@
 using UnityEngine;
 using System.Collections;
 
+[System.Serializable]
 public class BaseStatedLoot : BaseLoot {
-	
+
 	private int health;
 	private int stamina;
 	private int endurance;
@@ -12,10 +13,10 @@ public class BaseStatedLoot : BaseLoot {
 	private int wisdom;
 	private int agility;
 	private int	luck;
-    private int spirit;
-	
+  private int spirit;
+
 	//minor stats
-	
+
 	public int Health{
 		get{return health;}
 		set{health = value;}
@@ -56,7 +57,7 @@ public class BaseStatedLoot : BaseLoot {
 		get{return spirit;}
 		set{spirit = value;}
 	}
-	
-	
+
+
 
 }

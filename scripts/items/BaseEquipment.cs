@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
+[System.Serializable]
 public class BaseEquipment :  BaseStatedLoot {
 
     public enum EquipmentTypes{
@@ -14,6 +15,7 @@ public class BaseEquipment :  BaseStatedLoot {
         RINGTWO,
         GLOVES,
         //Back for capes. later need options for toggle cape n helm visuals
+        //done and done
         BACK
     }
 

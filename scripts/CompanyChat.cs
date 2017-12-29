@@ -24,3 +24,7 @@
 // downloading desktop app rn
 // ill have to save n move the files hold on
 //alright sick, go ahead and put those files you worked on in that cloned folder and sync, ill put a screenshot in twitchchat
+//hello
+// ye experimenting with the back n forth?
+//yup exactly
+// seems to  work this way

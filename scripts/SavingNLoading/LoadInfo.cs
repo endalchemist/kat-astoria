@@ -15,6 +15,10 @@ public class LoadInfo{
       GameInformation.Agility = PlayerPrefs.GetInt("AGILITY");
       GameInformation.Luck = PlayerPrefs.GetInt("LUCK");
       GameInformation.Spirit = PlayerPrefs.GetInt("SPIRIT");
+
+      if(PlayerPrefs.GetString("EQUIPMENTONE") != null){
+        GameInformation.EquipmentOne = (BaseEquipment)PPSerialztion.Load("EQUIPMENTONE");
+      }
 }
 
 
