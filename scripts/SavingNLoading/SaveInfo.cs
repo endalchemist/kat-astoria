@@ -15,6 +15,9 @@ public class SaveInfo{
     PlayerPrefs.SetInt("AGILITY",GameInformation.Agility);
     PlayerPrefs.SetInt("LUCK",GameInformation.Luck);
     PlayerPrefs.SetInt("SPIRIT",GameInformation.Spirit);
+    if(GameInformation.EquipmentOne != null){
+      PPSerialztion.Save("EQUIPMENTONE", GameInformation.EquipmentOne);
+    }
   }
 
 
