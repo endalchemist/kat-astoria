@@ -4,8 +4,8 @@ using UnityEngine;
 public class CreateLevelThreeItem : MonoBehaviour {
 
     private BaseWeapon newWeapon;
-    private string[] weaponNames = new string[27] {"Greatsword","Greataxe","Maul","Axe","Halberd","Polearm","Short Sword","Long Sword","Bow","Crossbow","Gun","Dagger","Fists","Mace","Staff","Quarterstaff","Wand","Tome","Hoe","Crafters Maul","Crafters Hammer", "Woodsmans Axe", "Shovel","Pickaxe","Tinkers Tools", "Shield" };
-	
+    private string[] weaponNames = new string[29] {"Greatsword","Greataxe","Maul","Axe","Halberd","Polearm","Short Sword","Long Sword","Bow","Crossbow","Gun","Dagger","Fists","Mace","Staff","Quarterstaff","Wand","Tome","Hoe","Crafters Maul","Crafters Hammer", "Woodsmans Axe", "Shovel","Pickaxe","Tinkers Tools", "Shield","Scythe","Scimitar" };
+
 
     public void CreateWeapon(){
 		newWeapon = new BaseWeapon();
@@ -23,7 +23,7 @@ public class CreateLevelThreeItem : MonoBehaviour {
 			newWeapon.Wisdom = Random.Random(1,2);
 			newWeapon.Luck = Random.Random(5,6);
 			newWeapon.Spirit = Random.Random(1,9);
-			
+
 		}
  		else if (newWeapon.LootName = "Greataxe"){
 			newWeapon.LootDetails = "This is a Greataxe of fine craftsmanship.";
@@ -38,7 +38,7 @@ public class CreateLevelThreeItem : MonoBehaviour {
 			newWeapon.Wisdom = Random.Random(1,2);
 			newWeapon.Luck = Random.Random(5,6);
 			newWeapon.Spirit = Random.Random(1,9);
-			
+
 		}
 		else if (newWeapon.LootName = "Maul"){
 			newWeapon.LootDetails = "This is a Maul of fine craftsmanship.";
@@ -53,7 +53,7 @@ public class CreateLevelThreeItem : MonoBehaviour {
 			newWeapon.Wisdom = Random.Random(1,2);
 			newWeapon.Luck = Random.Random(5,6);
 			newWeapon.Spirit = Random.Random(1,9);
-			
+
 		}
 		else if (newWeapon.LootName = "Axe"){
 			newWeapon.LootDetails = "This is a Axe of fine craftsmanship.";
@@ -68,7 +68,7 @@ public class CreateLevelThreeItem : MonoBehaviour {
 			newWeapon.Wisdom = Random.Random(1,2);
 			newWeapon.Luck = Random.Random(5,6);
 			newWeapon.Spirit = Random.Random(1,9);
-			
+
 		}
 		else if (newWeapon.LootName = "Halberd"){
 			newWeapon.LootDetails = "This is a Halberd of fine craftsmanship.";
@@ -83,7 +83,7 @@ public class CreateLevelThreeItem : MonoBehaviour {
 			newWeapon.Wisdom = Random.Random(1,2);
 			newWeapon.Luck = Random.Random(5,6);
 			newWeapon.Spirit = Random.Random(1,9);
-			
+
 		}
 		else if (newWeapon.LootName = "Polearm"){
 			newWeapon.LootDetails = "This is a Polearm of fine craftsmanship.";
@@ -98,7 +98,7 @@ public class CreateLevelThreeItem : MonoBehaviour {
 			newWeapon.Wisdom = Random.Random(1,2);
 			newWeapon.Luck = Random.Random(5,6);
 			newWeapon.Spirit = Random.Random(1,9);
-			
+
 		}
 		else if (newWeapon.LootName = "Short Sword"){
 			newWeapon.LootDetails = "This is a Short Sword of fine craftsmanship.";
@@ -113,7 +113,7 @@ public class CreateLevelThreeItem : MonoBehaviour {
 			newWeapon.Wisdom = Random.Random(1,2);
 			newWeapon.Luck = Random.Random(5,6);
 			newWeapon.Spirit = Random.Random(1,9);
-			
+
 		}
 		else if (newWeapon.LootName = "Long Sword"){
 			newWeapon.LootDetails = "This is a Long Sword of fine craftsmanship.";
@@ -128,7 +128,7 @@ public class CreateLevelThreeItem : MonoBehaviour {
 			newWeapon.Wisdom = Random.Random(1,2);
 			newWeapon.Luck = Random.Random(5,6);
 			newWeapon.Spirit = Random.Random(1,9);
-			
+
 		}
 		else if (newWeapon.LootName = "Bow"){
 			newWeapon.LootDetails = "This is a Bow of fine craftsmanship.";
@@ -143,7 +143,7 @@ public class CreateLevelThreeItem : MonoBehaviour {
 			newWeapon.Wisdom = Random.Random(1,2);
 			newWeapon.Luck = Random.Random(5,6);
 			newWeapon.Spirit = Random.Random(1,9);
-			
+
 		}
 		else if (newWeapon.LootName = "Crossbow"){
 			newWeapon.LootDetails = "This is a Crossbow of fine craftsmanship.";
@@ -158,7 +158,7 @@ public class CreateLevelThreeItem : MonoBehaviour {
 			newWeapon.Wisdom = Random.Random(1,2);
 			newWeapon.Luck = Random.Random(5,6);
 			newWeapon.Spirit = Random.Random(1,9);
-			
+
 		}
 		else if (newWeapon.LootName = "Gun"){
 			newWeapon.LootDetails = "This is a Gun of fine craftsmanship.";
@@ -172,7 +172,7 @@ public class CreateLevelThreeItem : MonoBehaviour {
 			newWeapon.Wisdom = Random.Random(1,2);
 			newWeapon.Luck = Random.Random(5,6);
 			newWeapon.Spirit = Random.Random(1,9);
-			
+
 		}
 		else if (newWeapon.LootName = "Fists"){
 			newWeapon.LootDetails = "This is a Fists of fine craftsmanship.";
@@ -187,7 +187,7 @@ public class CreateLevelThreeItem : MonoBehaviour {
 			newWeapon.Wisdom = Random.Random(1,2);
 			newWeapon.Luck = Random.Random(5,6);
 			newWeapon.Spirit = Random.Random(1,9);
-			
+
 		}
 		else if (newWeapon.LootName = "Dagger"){
 			newWeapon.LootDetails = "This is a Dagger of fine craftsmanship.";
@@ -202,8 +202,8 @@ public class CreateLevelThreeItem : MonoBehaviour {
 			newWeapon.Wisdom = Random.Random(1,2);
 			newWeapon.Luck = Random.Random(5,6);
 			newWeapon.Spirit = Random.Random(1,9);
-			
-			
+
+
 		}
 		else if (newWeapon.LootName = "Mace"){
 			newWeapon.LootDetails = "This is a Mace of fine craftsmanship.";
@@ -218,7 +218,7 @@ public class CreateLevelThreeItem : MonoBehaviour {
 			newWeapon.Wisdom = Random.Random(1,2);
 			newWeapon.Luck = Random.Random(5,6);
 			newWeapon.Spirit = Random.Random(1,9);
-			
+
 		}
 		else if (newWeapon.LootName = "Staff"){
 			newWeapon.LootDetails = "This is a Staff of fine craftsmanship.";
@@ -233,7 +233,7 @@ public class CreateLevelThreeItem : MonoBehaviour {
 			newWeapon.Wisdom = Random.Random(1,2);
 			newWeapon.Luck = Random.Random(5,6);
 			newWeapon.Spirit = Random.Random(1,9);
-			
+
 		}
 		else if (newWeapon.LootName = "Quarterstaff"){
 			newWeapon.LootDetails = "This is a Quarterstaff of fine craftsmanship.";
@@ -248,7 +248,7 @@ public class CreateLevelThreeItem : MonoBehaviour {
 			newWeapon.Wisdom = Random.Random(1,2);
 			newWeapon.Luck = Random.Random(5,6);
 			newWeapon.Spirit = Random.Random(1,9);
-			
+
 		}
 		else if (newWeapon.LootName = "Wand"){
 			newWeapon.LootDetails = "This is a Wand of fine craftsmanship.";
@@ -263,7 +263,7 @@ public class CreateLevelThreeItem : MonoBehaviour {
 			newWeapon.Wisdom = Random.Random(1,2);
 			newWeapon.Luck = Random.Random(5,6);
 			newWeapon.Spirit = Random.Random(1,9);
-			
+
 		}
 		else if (newWeapon.LootName = "Tome"){
 			newWeapon.LootDetails = "This is a Tome of fine craftsmanship.";
@@ -278,7 +278,7 @@ public class CreateLevelThreeItem : MonoBehaviour {
 			newWeapon.Wisdom = Random.Random(1,2);
 			newWeapon.Luck = Random.Random(5,6);
 			newWeapon.Spirit = Random.Random(1,9);
-			
+
 		}
 		else if (newWeapon.LootName = "Hoe"){
 			newWeapon.LootDetails = "This is a Hoe of fine craftsmanship.";
@@ -293,7 +293,7 @@ public class CreateLevelThreeItem : MonoBehaviour {
 			newWeapon.Wisdom = Random.Random(1,2);
 			newWeapon.Luck = Random.Random(5,6);
 			newWeapon.Spirit = Random.Random(1,9);
-			
+
 		}
 		else if (newWeapon.LootName = "Crafters Maul"){
 			newWeapon.LootDetails = "This is a Crafters Maul of fine craftsmanship.";
@@ -308,7 +308,7 @@ public class CreateLevelThreeItem : MonoBehaviour {
 			newWeapon.Wisdom = Random.Random(1,2);
 			newWeapon.Luck = Random.Random(5,6);
 			newWeapon.Spirit = Random.Random(1,9);
-			
+
 		}
 		else if (newWeapon.LootName = "Crafters Hammer"){
 			newWeapon.LootDetails = "This is a Crafters Hammer of fine craftsmanship.";
@@ -323,7 +323,7 @@ public class CreateLevelThreeItem : MonoBehaviour {
 			newWeapon.Wisdom = Random.Random(1,2);
 			newWeapon.Luck = Random.Random(5,6);
 			newWeapon.Spirit = Random.Random(1,9);
-			
+
 		}
 		else if (newWeapon.LootName = "Woodsmans Axe"){
 			newWeapon.LootDetails = "This is a Woodsmans Axe of fine craftsmanship.";
@@ -338,7 +338,7 @@ public class CreateLevelThreeItem : MonoBehaviour {
 			newWeapon.Wisdom = Random.Random(1,2);
 			newWeapon.Luck = Random.Random(5,6);
 			newWeapon.Spirit = Random.Random(1,9);
-			
+
 		}
 		else if (newWeapon.LootName = "Shovel"){
 			newWeapon.LootDetails = "This is a Shovel of fine craftsmanship.";
@@ -353,7 +353,7 @@ public class CreateLevelThreeItem : MonoBehaviour {
 			newWeapon.Wisdom = Random.Random(1,2);
 			newWeapon.Luck = Random.Random(5,6);
 			newWeapon.Spirit = Random.Random(1,9);
-			
+
 		}
 		else if (newWeapon.LootName = "Pickaxe"){
 			newWeapon.LootDetails = "This is a Pickaxe of fine craftsmanship.";
@@ -368,7 +368,7 @@ public class CreateLevelThreeItem : MonoBehaviour {
 			newWeapon.Wisdom = Random.Random(1,2);
 			newWeapon.Luck = Random.Random(5,6);
 			newWeapon.Spirit = Random.Random(1,9);
-			
+
 		}
 		else if (newWeapon.LootName = "Tinkers Tools"){
 			newWeapon.LootDetails = "This is a Tinkers Tools of fine craftsmanship.";
@@ -383,7 +383,7 @@ public class CreateLevelThreeItem : MonoBehaviour {
 			newWeapon.Wisdom = Random.Random(1,2);
 			newWeapon.Luck = Random.Random(5,6);
 			newWeapon.Spirit = Random.Random(1,9);
-			
+
 		}
 		else if (newWeapon.LootName = "Shield"){
 			newWeapon.LootDetails = "This is a Shield of fine craftsmanship.";
@@ -398,9 +398,9 @@ public class CreateLevelThreeItem : MonoBehaviour {
 			newWeapon.Wisdom = Random.Random(1,2);
 			newWeapon.Luck = Random.Random(5,6);
 			newWeapon.Spirit = Random.Random(1,9);
-			
+
 		}
-		
+
     }
 
 }
