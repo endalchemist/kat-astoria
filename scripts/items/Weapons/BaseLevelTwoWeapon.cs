@@ -5,7 +5,7 @@ public class CreateLevelOneItem : MonoBehaviour {
 
     private BaseWeapon newWeapon;
     private string[] weaponNames = new string[29] {"Greatsword","Greataxe","Maul","Axe","Halberd","Polearm","Short Sword","Long Sword","Bow","Crossbow","Gun","Dagger","Fists","Mace","Staff","Quarterstaff","Wand","Tome","Hoe","Crafters Maul","Crafters Hammer", "Woodsmans Axe", "Shovel","Pickaxe","Tinkers Tools", "Shield","Scythe","Scimitar" };
-	
+
 
     public void CreateWeapon(){
 		newWeapon = new BaseWeapon();
@@ -400,7 +400,36 @@ public class CreateLevelOneItem : MonoBehaviour {
 			newWeapon.Spirit = Random.Random(1,9);
 
 		}
+    else if (newWeapon.LootName = "Scythe"){
+      newWeapon.LootDetails = "This is a Scythe of fine craftsmanship.";
+      newWeapon.WeaponTypes = BaseWeapon.WeaponTypes.SCYTHE;
+      newWeapon.Strength = Random.Range(12,22);
+      newWeapon.Endurance = Random.Range(13,27);
+      newWeapon.Stamina = Random.Range(13,18);
+      newWeapon.Agility = Random.Random(15,24);
+      newWeapon.Health = 10 + newWeapon.Stamina;
+      newWeapon.MagicPower = Random.Random(1,2);
+      newWeapon.Intellect = Random.Random(1,2);
+      newWeapon.Wisdom = Random.Random(1,2);
+      newWeapon.Luck = Random.Random(5,6);
+      newWeapon.Spirit = Random.Random(1,9);
 
+    }
+    else if (newWeapon.LootName = "Scimitar"){
+      newWeapon.LootDetails = "This is a Scimitar of fine craftsmanship.";
+      newWeapon.WeaponTypes = BaseWeapon.WeaponTypes.SCIMITAR;
+      newWeapon.Strength = Random.Range(12,22);
+      newWeapon.Endurance = Random.Range(13,27);
+      newWeapon.Stamina = Random.Range(13,18);
+      newWeapon.Agility = Random.Random(15,24);
+      newWeapon.Health = 10 + newWeapon.Stamina;
+      newWeapon.MagicPower = Random.Random(1,2);
+      newWeapon.Intellect = Random.Random(1,2);
+      newWeapon.Wisdom = Random.Random(1,2);
+      newWeapon.Luck = Random.Random(5,6);
+      newWeapon.Spirit = Random.Random(1,9);
+
+    }
     }
 
 }
